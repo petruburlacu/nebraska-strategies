@@ -1,2 +1,13 @@
 # nebraska-strategies
 Value Investing Strategies
+
+Value investing is an investment paradigm that involves buying securities that appear underpriced by some form of fundamental analysis. The various forms of value investing derive from the investment philosophy first taught by Benjamin Graham and David Dodd at Columbia Business School in 1928, and subsequently developed in their 1934 text Security Analysis. Additionally, Warren Buffet has been quoted as an adherent to the value investing methodology, and is considered by some to be a modern day Graham and Dodd disciple. He has called the book "the best book about investing ever written".
+
+Buffet considers himself as 85% Graham and 15% Fisher, with Graham teaching him the value investing framework and Fisher teaching him growth investing. Graham's most famous student, however, is Warren Buffett, who ran a number of Graham's partnerships. Buffett was Graham's most successful student and attended Columbia Business School where he learned the rigorous Graham value investing techniques. Buffett worked for Graham for two years after graduating, then returned to Omaha to start his own investment partnership. Buffett's strategy was to buy shares of businesses that appeared undervalued at a price that was attractive. He would hold onto these stocks until there was a significant increase in price and then sell them. He would hold a smaller number of stocks than Graham and often hold them for a shorter period of time. Buffett's investment techniques have been studied by many other investors, and he is often quoted by investors eager to learn his techniques.
+
+Enterpulse (Enterprise Pulse)
+- British Investment Strategies
+- Enterpulse Insights
+- Enterpulse: Aquisition Strategies
+
+A value investing strategy that focuses on the enterprise value of a company. Enterprise value is a measure of a company's total value, often used as a more comprehensive alternative to equity market capitalization. Enterprise value is calculated as the market capitalization plus debt, minority interest and preferred shares, minus total cash and cash equivalents. Often times, the minority interest and preferred equity is effectively zero, so the enterprise value is simply: market capitalization + debt - cash. The enterprise value is one of the most important metrics used in business valuation, investing, portfolio analysis, and accounting. Enterprise value is more comprehensive than market capitalization, which only reflects common equity and is considered more representative of a company’s value. Enterprise value reflects the opportunistic nature of business and may change substantially over time because of both external and internal conditions.

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head></head>
+   <body>
+      
+      <h3>
+         <a href = "{{ url_for('all') }}">Comments - Flask SQLAlchemy example</a>
+      </h3>
+      
+      <hr/>
+      {%- for message in get_flashed_messages() %}
+         {{ message }}
+      {%- endfor %}
+		      
+      <table>
+         <thead>
+            <tr>
+                <th>Id</th>
+                <th>Company</th>
+                <th>Ticker</th>
+                <th>Price</th>
+                <th>Shares</th>
+                <th>Date</th>
+            </tr>
+         </thead>
+         
+         <tbody>
+            {% for company in companies %}
+                <tr>
+                    <td>{{ company.id }}</td>
+                    <td>{{ company.company }}</td>
+                    <td>{{ company.ticker }}</td>
+                    <td>{{ company.price }}</td>
+                    <td>{{ company.shares }}</td>
+                    <td>{{ company.date }}</td>
+                </tr>
+            {% endfor %}
+         </tbody>
+      </table>
+   </body>
+</html>
