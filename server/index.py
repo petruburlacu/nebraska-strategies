@@ -15,6 +15,7 @@ class Company(db.Model):
     company = db.Column(db.String(80), nullable=False)
     ticker = db.Column(db.String(10), nullable=False)
     price = db.Column(db.Float, nullable=False)
+    total_market_value = db.Column(db.Float, nullable=False)
     shares = db.Column(db.Integer, nullable=False)
     date_created = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
 
@@ -24,6 +25,7 @@ class Company(db.Model):
             'company': self.company,
             'ticker': self.ticker,
             'price': self.price,
+            'total_market_value': self.total_market_value,
             'shares': self.shares,
             'date_created': self.date_created.isoformat()
         }
@@ -35,6 +37,7 @@ class Company(db.Model):
         self.company = company
         self.ticker = ticker
         self.price = price
+        self.total_market_value = price * shares
         self.shares = shares
         self.date_created = date_created
 
@@ -61,5 +64,7 @@ if __name__ == '__main__':
             db.session.add(Company('Amazon', 'AMZN', 3000.00, 100, datetime.utcnow()))
             db.session.add(Company('Facebook', 'FB', 250.00, 100, datetime.utcnow()))
             db.session.commit()
-        app.run(host='0.0.0.0', debug=True)
+
+        app.config['DEBUG'] = True
+        app.run(host='0.0.0.0', port=8080)
 

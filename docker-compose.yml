@@ -1,12 +1,22 @@
 version: '3'
 services:
   web:
-    build: .
+    build: ./server
+    container_name: server
     volumes:
-      - .:/app
+      - ./server:/app
+    env_file:
+      - .env
     ports:
-      - "5000:5000"
+      - "8080:8080"
+    depends_on:
+      - db
+    links:
+      - db
   db:
     image: "postgres"
+    container_name: postgres
+    ports:
+      - "5432:5432"
     environment:
       POSTGRES_PASSWORD: mysecretpassword
